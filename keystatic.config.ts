@@ -21,9 +21,17 @@ const SERVICE_OPTIONS = [
 ];
 
 export default config({
-  // Local mode for development. Switch to GitHub storage for live editing once
-  // the repo is on GitHub + Vercel git deploys are connected (see SETUP guide).
-  storage: { kind: "local" },
+  // GitHub mode once the Keystatic GitHub App env vars are present (in Vercel,
+  // and in .env.local after the one-time `KEYSTATIC_SETUP=1 npm run dev` wizard).
+  // Falls back to local files otherwise, so normal dev and the first deploy
+  // never crash for missing GitHub config.
+  storage:
+    process.env.KEYSTATIC_GITHUB_CLIENT_ID || process.env.KEYSTATIC_SETUP
+      ? {
+          kind: "github",
+          repo: { owner: "jarvisdiscord-bot", name: "konect-website" },
+        }
+      : { kind: "local" },
   ui: {
     brand: { name: "Konect CMS" },
     navigation: {
