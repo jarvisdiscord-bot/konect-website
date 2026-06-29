@@ -21,17 +21,13 @@ const SERVICE_OPTIONS = [
 ];
 
 export default config({
-  // GitHub mode once the Keystatic GitHub App env vars are present (in Vercel,
-  // and in .env.local after the one-time `KEYSTATIC_SETUP=1 npm run dev` wizard).
-  // Falls back to local files otherwise, so normal dev and the first deploy
-  // never crash for missing GitHub config.
+  // Local files while developing (fast, no login); Keystatic Cloud on the live
+  // site so editors sign in via Cloud and edits commit to the repo + auto-deploy.
   storage:
-    process.env.KEYSTATIC_GITHUB_CLIENT_ID || process.env.KEYSTATIC_SETUP
-      ? {
-          kind: "github",
-          repo: { owner: "jarvisdiscord-bot", name: "konect-website" },
-        }
-      : { kind: "local" },
+    process.env.NODE_ENV === "development"
+      ? { kind: "local" }
+      : { kind: "cloud" },
+  cloud: { project: "konect/konect-website" },
   ui: {
     brand: { name: "Konect CMS" },
     navigation: {
