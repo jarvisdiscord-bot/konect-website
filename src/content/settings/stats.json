@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "value": 400,
+      "suffix": "+",
+      "label": "Customers Served"
+    },
+    {
+      "value": 300,
+      "suffix": "+",
+      "label": "Societies Secured"
+    },
+    {
+      "value": 200,
+      "suffix": "+",
+      "label": "Active AMCs"
+    },
+    {
+      "value": 16,
+      "suffix": "+",
+      "label": "Years in Business"
+    }
+  ]
+}

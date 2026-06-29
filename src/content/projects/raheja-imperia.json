@@ -1,0 +1,36 @@
+{
+  "name": "Raheja Imperia",
+  "order": 1,
+  "vertical": "Residential",
+  "location": "Lower Parel, Mumbai",
+  "year": null,
+  "statHighlight": "406 cameras · 58 floors · 2 wings",
+  "summary": "406 cameras covering 58 floors across two wings of a premium South Mumbai tower.",
+  "featured": true,
+  "heroImage": "/images/projects/raheja-imperia.webp",
+  "services": [
+    "cctv",
+    "video-door-phone"
+  ],
+  "challenge": "A premium 58-floor, two-wing residential tower in Lower Parel needed comprehensive, discreet coverage worthy of one of South Mumbai's most prestigious addresses.",
+  "solution": "Konect engineered four cameras per floor across both wings — 406 cameras in total — with cabling and equipment planned around the building's vertical structure.",
+  "result": "Every floor, lobby and common area is covered by a single coherent system, delivering the always-on security residents of a premium address expect.",
+  "facts": [
+    {
+      "label": "Cameras",
+      "value": "406"
+    },
+    {
+      "label": "Floors",
+      "value": "58"
+    },
+    {
+      "label": "Wings",
+      "value": "2"
+    },
+    {
+      "label": "Per floor",
+      "value": "4 cameras"
+    }
+  ]
+}

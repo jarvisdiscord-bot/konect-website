@@ -1,0 +1,35 @@
+{
+  "name": "Shubhada Polymers",
+  "order": 5,
+  "vertical": "Manufacturing",
+  "location": "Lonavala",
+  "year": null,
+  "statHighlight": "4 plants · 32 cameras each · 128 total",
+  "summary": "Full planning, wiring and execution across four plants — 32 cameras per plant, 128 in total.",
+  "featured": false,
+  "heroImage": "/images/projects/shubhada-polymers.webp",
+  "services": [
+    "cctv"
+  ],
+  "challenge": "Four manufacturing plants needed consistent, standardised surveillance with the planning and wiring handled end-to-end.",
+  "solution": "Konect handled full planning, wiring and execution, deploying 32 cameras at each of the four plants for 128 cameras total.",
+  "result": "A uniform surveillance standard across all four Lonavala plants, executed entirely in-house by Konect.",
+  "facts": [
+    {
+      "label": "Plants",
+      "value": "4"
+    },
+    {
+      "label": "Cameras / plant",
+      "value": "32"
+    },
+    {
+      "label": "Total cameras",
+      "value": "128"
+    },
+    {
+      "label": "Scope",
+      "value": "Plan · wire · execute"
+    }
+  ]
+}

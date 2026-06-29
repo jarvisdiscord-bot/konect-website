@@ -1,0 +1,31 @@
+{
+  "name": "Roshan Spaces",
+  "order": 9,
+  "vertical": "Commercial",
+  "location": "Bandra, Mumbai",
+  "year": null,
+  "statHighlight": "Asia's largest hoarding",
+  "summary": "A marquee Bandra commercial project — home to Asia's largest hoarding.",
+  "featured": false,
+  "heroImage": "/images/projects/roshan-spaces.webp",
+  "services": [
+    "cctv"
+  ],
+  "challenge": "A landmark Bandra commercial site — host to Asia's largest hoarding — called for surveillance befitting a high-profile location.",
+  "solution": "Konect delivered surveillance for this marquee commercial address.",
+  "result": "A flagship commercial reference in Konect's Mumbai portfolio.",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Bandra"
+    },
+    {
+      "label": "Notability",
+      "value": "Asia's largest hoarding"
+    },
+    {
+      "label": "Sector",
+      "value": "Commercial"
+    }
+  ]
+}

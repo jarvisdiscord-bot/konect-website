@@ -1,0 +1,31 @@
+{
+  "name": "Marathon Icon",
+  "order": 7,
+  "vertical": "Residential",
+  "location": "Lower Parel, Mumbai",
+  "year": null,
+  "statHighlight": "149 cameras",
+  "summary": "A 149-camera deployment for a Lower Parel residential tower.",
+  "featured": false,
+  "heroImage": "/images/projects/marathon-icon.webp",
+  "services": [
+    "cctv"
+  ],
+  "challenge": "A Lower Parel residential tower needed thorough coverage of its common areas and entry points.",
+  "solution": "Konect installed 149 cameras across the building.",
+  "result": "Comprehensive, single-system coverage for residents in one of Mumbai's busiest precincts.",
+  "facts": [
+    {
+      "label": "Cameras",
+      "value": "149"
+    },
+    {
+      "label": "Location",
+      "value": "Lower Parel"
+    },
+    {
+      "label": "Sector",
+      "value": "Residential"
+    }
+  ]
+}

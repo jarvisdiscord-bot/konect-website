@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "slug": "education",
+      "name": "Education",
+      "icon": "GraduationCap",
+      "stat": "497 cameras across 15 institutes"
+    },
+    {
+      "slug": "healthcare",
+      "name": "Healthcare",
+      "icon": "HeartPulse",
+      "stat": "120-camera hospital deployment"
+    },
+    {
+      "slug": "manufacturing",
+      "name": "Manufacturing",
+      "icon": "Factory",
+      "stat": "Multi-plant industrial surveillance"
+    },
+    {
+      "slug": "residential",
+      "name": "Residential",
+      "icon": "Building2",
+      "stat": "300+ societies secured"
+    },
+    {
+      "slug": "commercial",
+      "name": "Commercial",
+      "icon": "Store",
+      "stat": "Marquee Mumbai landmarks"
+    },
+    {
+      "slug": "sports-recreation",
+      "name": "Sports & Recreation",
+      "icon": "Trophy",
+      "stat": "Fully wireless ground coverage"
+    }
+  ]
+}

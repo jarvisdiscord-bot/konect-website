@@ -1,0 +1,35 @@
+{
+  "name": "Splendor Complex",
+  "order": 4,
+  "vertical": "Residential",
+  "location": "JVLR, Mumbai",
+  "year": null,
+  "statHighlight": "250+ cameras under AMC · growing",
+  "summary": "An AMC of 250+ cameras that keeps growing — 28 elevator cameras and 40 new cameras added and counting.",
+  "featured": false,
+  "heroImage": "/images/projects/splendor-complex.webp",
+  "services": [
+    "cctv"
+  ],
+  "challenge": "A large JVLR complex needed both ongoing maintenance of an extensive camera estate and a partner who could expand coverage as needs grew.",
+  "solution": "Konect maintains an AMC of 250+ cameras, recently adding 28 elevator cameras and a further 40 new cameras to the system.",
+  "result": "A growing account where the client keeps adding cameras — the surest sign that the maintenance relationship is working.",
+  "facts": [
+    {
+      "label": "Cameras under AMC",
+      "value": "250+"
+    },
+    {
+      "label": "Elevator cameras",
+      "value": "28"
+    },
+    {
+      "label": "Recently added",
+      "value": "40"
+    },
+    {
+      "label": "Status",
+      "value": "Growing"
+    }
+  ]
+}

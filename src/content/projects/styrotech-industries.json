@@ -1,0 +1,36 @@
+{
+  "name": "Styrotech Industries",
+  "order": 6,
+  "vertical": "Manufacturing",
+  "location": "Ranjangaon (MIDC)",
+  "year": null,
+  "statHighlight": "64 IP cameras · remote-viewable from Mumbai",
+  "summary": "64 IP cameras in a MIDC industrial zone, all viewable from the Mumbai office — a remote-monitoring showcase.",
+  "featured": false,
+  "heroImage": "/images/projects/styrotech-industries.webp",
+  "services": [
+    "cctv",
+    "wireless"
+  ],
+  "challenge": "An industrial plant in the Ranjangaon MIDC zone needed surveillance that head office in Mumbai could watch live, while keeping wiring and maintenance costs down.",
+  "solution": "Konect installed 64 IP cameras designed to be viewed remotely, with the full feed accessible from the Mumbai office and the layout planned to save wiring and maintenance.",
+  "result": "Management in Mumbai monitors the entire Ranjangaon plant in real time — a working showcase of Konect's remote-monitoring capability.",
+  "facts": [
+    {
+      "label": "IP cameras",
+      "value": "64"
+    },
+    {
+      "label": "Zone",
+      "value": "Ranjangaon MIDC"
+    },
+    {
+      "label": "Monitoring",
+      "value": "Remote from Mumbai"
+    },
+    {
+      "label": "Designed for",
+      "value": "Lower wiring cost"
+    }
+  ]
+}

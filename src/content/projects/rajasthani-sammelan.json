@@ -1,0 +1,36 @@
+{
+  "name": "Rajasthani Sammelan",
+  "order": 0,
+  "vertical": "Education",
+  "location": "Mumbai",
+  "year": 2014,
+  "statHighlight": "497 cameras · 15 institutes · 94% uptime",
+  "summary": "497 cameras across 15 institutes — still running strong more than a decade after installation.",
+  "featured": true,
+  "heroImage": "/images/projects/rajasthani-sammelan.webp",
+  "services": [
+    "cctv",
+    "access-control"
+  ],
+  "challenge": "Fifteen separate educational institutes needed unified surveillance that administrators could trust for the long haul — not a system that quietly degrades after the first year.",
+  "solution": "Konect designed and installed 497 cameras across all 15 institutes in 2014, then backed the deployment with an Annual Maintenance Contract and preventive maintenance schedule to keep every camera recording.",
+  "result": "More than ten years on, the system is still in service with 94% uptime verified through AMC records — the clearest proof that Konect builds installations that last.",
+  "facts": [
+    {
+      "label": "Cameras",
+      "value": "497"
+    },
+    {
+      "label": "Institutes",
+      "value": "15"
+    },
+    {
+      "label": "Installed",
+      "value": "2014"
+    },
+    {
+      "label": "Verified uptime",
+      "value": "94%"
+    }
+  ]
+}

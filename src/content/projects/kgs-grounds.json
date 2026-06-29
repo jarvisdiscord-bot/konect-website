@@ -1,0 +1,36 @@
+{
+  "name": "KGS Grounds",
+  "order": 10,
+  "vertical": "Sports & Recreation",
+  "location": "Jogeshwari East, Mumbai",
+  "year": null,
+  "statHighlight": "Fully wireless · access point on every pole",
+  "summary": "A fully wireless camera network with a wireless access point on every pole — no trenching, full coverage.",
+  "featured": false,
+  "heroImage": "/images/projects/kgs-grounds.webp",
+  "services": [
+    "wireless",
+    "cctv"
+  ],
+  "challenge": "An open recreational ground in Jogeshwari East couldn't be wired conventionally without major civil work.",
+  "solution": "Konect built a fully wireless camera network with a wireless access point on every pole, covering the grounds without trenching cable.",
+  "result": "Complete coverage of an open ground using wireless infrastructure — a template for sites where wiring isn't practical.",
+  "facts": [
+    {
+      "label": "Network",
+      "value": "Fully wireless"
+    },
+    {
+      "label": "Per pole",
+      "value": "Wireless access point"
+    },
+    {
+      "label": "Location",
+      "value": "Jogeshwari East"
+    },
+    {
+      "label": "Sector",
+      "value": "Sports & Recreation"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Mandev Tubes",
+  "order": 8,
+  "vertical": "Manufacturing",
+  "location": "Umbergaon",
+  "year": null,
+  "statHighlight": "126 cameras across 2 plants",
+  "summary": "Two plants secured — 78 cameras at Plant 1 and 48 at Plant 2, 126 in total.",
+  "featured": false,
+  "heroImage": "/images/projects/mandev-tubes.webp",
+  "services": [
+    "cctv"
+  ],
+  "challenge": "Two separate plants in Umbergaon needed surveillance scaled to each site's size.",
+  "solution": "Konect installed 78 cameras at Plant 1 and 48 at Plant 2 — 126 cameras across the two facilities.",
+  "result": "Both plants are covered to a consistent standard, sized appropriately to each site.",
+  "facts": [
+    {
+      "label": "Plant 1",
+      "value": "78 cameras"
+    },
+    {
+      "label": "Plant 2",
+      "value": "48 cameras"
+    },
+    {
+      "label": "Total",
+      "value": "126"
+    },
+    {
+      "label": "Location",
+      "value": "Umbergaon"
+    }
+  ]
+}

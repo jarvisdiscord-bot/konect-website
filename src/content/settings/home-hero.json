@@ -1,0 +1,20 @@
+{
+  "badge": "CCTV AMC specialists for Mumbai housing societies",
+  "headlinePrefix": "We keep CCTV running across",
+  "headlineAccent": "300+ Mumbai societies",
+  "subhead": "Konect runs 200+ active AMC contracts across Mumbai — quarterly preventive maintenance, a real helpdesk and fast response that keep your society's cameras recording when it matters.",
+  "strip": [
+    {
+      "image": "/images/projects/hero-cameras.webp",
+      "alt": "CCTV cameras securing a Mumbai street"
+    },
+    {
+      "image": "/images/projects/hero-install.webp",
+      "alt": "A Konect technician installing a CCTV camera on a Mumbai building"
+    },
+    {
+      "image": "/images/projects/hero-camera.webp",
+      "alt": "A modern IP surveillance camera installed by Konect"
+    }
+  ]
+}

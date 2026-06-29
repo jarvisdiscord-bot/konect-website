@@ -1,0 +1,36 @@
+{
+  "name": "Navjiwan Chembur Sindhi Society",
+  "order": 2,
+  "vertical": "Residential",
+  "location": "Chembur, Mumbai",
+  "year": null,
+  "statHighlight": "110 cameras · 8 NVRs · 32 societies",
+  "summary": "One centrally controlled system spanning a 32-society complex, with intelligent loop planning that saved significant wiring.",
+  "featured": true,
+  "heroImage": "/images/projects/navjiwan-society.webp",
+  "services": [
+    "cctv",
+    "intercom"
+  ],
+  "challenge": "A 32-society complex needed to be monitored as one — but connecting that many buildings naively would have meant a costly, sprawling tangle of cable.",
+  "solution": "Konect deployed 110 cameras on 8 NVRs under central control, using intelligent loop planning and underground wiring for inter-society connectivity to cut cable runs dramatically.",
+  "result": "The entire 32-society complex is managed from one control point, with a clean underground backbone that saved significant wiring cost and disruption.",
+  "facts": [
+    {
+      "label": "Cameras",
+      "value": "110"
+    },
+    {
+      "label": "NVRs",
+      "value": "8"
+    },
+    {
+      "label": "Societies",
+      "value": "32"
+    },
+    {
+      "label": "Control",
+      "value": "Centralised"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Umrao Hospitals",
+  "order": 3,
+  "vertical": "Healthcare",
+  "location": "Mira Road, Mumbai",
+  "year": 2011,
+  "statHighlight": "120 cameras · entrusted by Voltas",
+  "summary": "A 120-camera hospital deployment offloaded to Konect by Voltas — a major trust signal.",
+  "featured": false,
+  "heroImage": "/images/projects/umrao-hospitals.webp",
+  "services": [
+    "cctv"
+  ],
+  "challenge": "A busy Mira Road hospital required reliable, round-the-clock surveillance across patient, public and restricted areas.",
+  "solution": "The project was offloaded to Konect by Voltas, and Konect installed 120 cameras across the facility in 2011.",
+  "result": "Voltas entrusting the work to Konect is a trust signal in itself — and the hospital gained complete, dependable coverage.",
+  "facts": [
+    {
+      "label": "Cameras",
+      "value": "120"
+    },
+    {
+      "label": "Installed",
+      "value": "2011"
+    },
+    {
+      "label": "Entrusted by",
+      "value": "Voltas"
+    },
+    {
+      "label": "Sector",
+      "value": "Healthcare"
+    }
+  ]
+}
