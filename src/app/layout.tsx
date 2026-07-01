@@ -1,8 +1,11 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { SiteFrame } from "@/components/layout/SiteFrame";
 import { site } from "@/lib/site";
+
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 const inter = Inter({
   subsets: ["latin"],
@@ -52,11 +55,12 @@ export const metadata: Metadata = {
     images: ["/og.png"],
   },
   robots: { index: true, follow: true },
-  icons: {
-    icon: "/images/existing/logo/konect-logo.png",
-    shortcut: "/images/existing/logo/konect-logo.png",
-    apple: "/images/existing/logo/konect-logo.png",
-  },
+  // Google Search Console: set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION in Vercel to
+  // the token from the Search Console "HTML tag" method to verify the domain.
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined,
+  // Favicon is served from src/app/icon.svg (square, branded).
 };
 
 export const viewport: Viewport = {
@@ -73,6 +77,17 @@ export default function RootLayout({
     >
       <body className="flex min-h-full flex-col bg-white">
         <SiteFrame>{children}</SiteFrame>
+        {gaId && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4-init" strategy="afterInteractive">
+              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${gaId}');`}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

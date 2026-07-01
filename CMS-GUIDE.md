@@ -91,3 +91,17 @@ updates in a minute or two.
   changing an existing slug or its old link will break.
 - The site is no longer a static export; it runs as a normal Next.js app on Vercel
   (required for the admin panel). Marketing pages are still pre-rendered/fast.
+
+## Current live setup (already configured — supersedes steps 1–5 above)
+- Repo: `github.com/jarvisdiscord-bot/konect-website` → Vercel auto-deploys on push.
+- Editor auth: **Keystatic Cloud** (`konect/konect-website`), not the GitHub App.
+  Invite editors in the Keystatic Cloud dashboard → **Team → Invite** (email).
+- `keystatic.config.ts` uses local files in dev, Keystatic Cloud in production.
+
+## Analytics & Search Console (optional — set in Vercel → Environment Variables)
+- `NEXT_PUBLIC_GA_ID` — a Google Analytics 4 measurement id (`G-XXXXXXX`); when set,
+  GA loads on every page. Leave unset to disable analytics entirely.
+- `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` — the token from Google Search Console's
+  "HTML tag" verification method (adds the verification `<meta>` tag).
+- After adding either, redeploy. The sitemap is already served at `/sitemap.xml`
+  (submit it in Search Console); `/keystatic` and `/api` are excluded from indexing.
